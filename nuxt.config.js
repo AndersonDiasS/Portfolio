@@ -1,9 +1,19 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  router: {
+    base: '/Portfolio/'
+  },
+
+  generate: {
+    dir: 'gh_pages', // gh_pages/ invés de dist/
+    subFolders: false // Os arquivos HTML são gerados de acordo com o caminho da rota
+  },
+  
   head: {
     title: 'Portfolio',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-br'
     },
     meta: [
       { charset: 'utf-8' },
