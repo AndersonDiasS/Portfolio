@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <initialContainer />
 </template>
 
 <script>
