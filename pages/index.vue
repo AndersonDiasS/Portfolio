@@ -1,5 +1,8 @@
 <template>
-  <Tutorial/>
+  <main>
+    <initialContainer />
+    <waves />
+  </main>
 </template>
 
 <script>
