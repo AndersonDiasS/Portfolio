@@ -1,5 +1,8 @@
 <template>
-  <initialContainer />
+  <main>
+    <initialContainer />
+    <waves />
+  </main>
 </template>
 
 <script>
