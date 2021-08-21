@@ -1,0 +1,19 @@
+/* Color Theme Swatches in Hex */
+body {
+  font-size: "Roboto", sans-serif;
+}
+
+.bgPrimary {
+  background-color: #6011A6;
+  font-color: white;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+/*# sourceMappingURL=global.css.map */
