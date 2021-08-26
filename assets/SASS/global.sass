@@ -5,22 +5,64 @@ $themeDark: #3B0A66
 $themeMedium: #8517E6
 $themeLight: #8D18F2
 $themeHightlight: #7614CC
-$font:'Roboto', sans-serif
-$w:white
-$b:black
+$font: 'Roboto', sans-serif
+$w: white
+$b: black
 
-body 
+@mixin gradientTheme()
+    // background: rgb(59,10,102)
+    background: linear-gradient(90deg, rgba(59,10,102,1) 0%, rgba(96,17,166,1) 33%, rgba(133,23,230,1) 100%)
+
+body
     font-size: $font
 
 .bgPrimary
-    background-color:$themePrimary
-    font-color:$w
+    background-color: $themePrimary
+    color: $w
 
+.bgGradient
+    // background-color: $themePrimary
+    color: $w
+    @include gradientTheme
+    animation: gradient 10s ease infinite
+    color: $w
+
+.TitleMenu
+    margin-top: 50px
+    margin-bottom: 50px
+
+@keyframes gradient
+    0%
+        background-position: 0% 50%
+    50%
+        background-position: 100% 50%
+    100%
+        background-position: 50% 0%
 
 .white
-    color:$w
+    color: $w
 
 .black
-    color:$b
-    
-    
+    color: $b
+
+.flexCenter
+    display: flex
+    justify-content: space-around
+    text-align: center
+
+.mb-10
+    margin-bottom: 10px
+
+.mt-10
+    margin-top: 10px
+
+.mb-50
+    margin-bottom: 50px
+
+@media (max-width:700px)
+    .flexCenter
+        flex-wrap: wrap
+
+    .card
+        flex: 100%
+        margin-top: 25px

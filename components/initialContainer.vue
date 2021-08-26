@@ -1,5 +1,5 @@
 <template lang="">
-  <section id="firstContent" class="bgPrimary">
+  <section id="firstContent" class="bgGradient animation">
     <div class="container text-center">
       <h1 class="white">Bem vindo a minha pagina :)</h1>
 

@@ -23,7 +23,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', ref: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css' }
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css' }
+  
     ]
   },
 
@@ -41,12 +42,15 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-  ],
-
+    '@nuxtjs/style-resources'
+  
+ ],
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+ 
+  
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

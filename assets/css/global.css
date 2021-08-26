@@ -5,15 +5,67 @@ body {
 
 .bgPrimary {
   background-color: #6011A6;
-  font-color: white;
+  color: white;
 }
 
+.bgGradient {
+  color: white;
+  background: linear-gradient(90deg, #3b0a66 0%, #6011a6 33%, #8517e6 100%);
+  animation: gradient 10s ease infinite;
+  color: white;
+}
+
+.TitleMenu {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
 .white {
   color: white;
 }
 
 .black {
   color: black;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  .flexCenter {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 100%;
+    margin-top: 25px;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */

@@ -2,6 +2,8 @@
   <main>
     <initialContainer />
     <waves />
+    <myLinks />
+    <myTalents />
   </main>
 </template>
 
