@@ -6,7 +6,7 @@ export default {
   },
 
   generate: {
-    dir: 'gh_pages', // gh_pages/ invés de dist/
+    dir: 'dist', // gh_pages/ invés de dist/
     subFolders: false // Os arquivos HTML são gerados de acordo com o caminho da rota
   },
   
