@@ -41,10 +41,7 @@ export default {
   transition: 0.5s;
 }
 
-.cardIcon {
-  font-size: 100px;
-  padding: 25px;
-}
+
 
 
 /* Mover para o sass posteriormente  */

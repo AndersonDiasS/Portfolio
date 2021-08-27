@@ -25,13 +25,13 @@
         />
       </g>
     </svg>
-    <div class="bgPrimary">
+    <div class="bgPrimary" style="padding-bottom: 20px;">
       <h2 class="text-center mb-50 ">Skills</h2>
 
       <div class="flexCenter">
         <div class="card" v-for="card in cards" :key="card.titulo">
           <ul class="text-center">
-            <li><i>{{card.titulo}}</i></li>
+            <li><i :class="card.icone" class="cardIcon"></i></li>
             <li>{{card.experiencia}}</li>
             <li>{{card.projetos}}</li>
             <li>{{card.tecnologias}}</li>
@@ -53,21 +53,21 @@ export default {
           experiencia: '3 anos',
           projetos: '8',
           tecnologias: 'TypeScript, SASS, HTML, Material Angular',
-          icone: '',
+          icone: 'fab fa-vuejs',
         },
         {
           titulo: 'VueJs',
           experiencia: '1 ano',
           projetos: '1',
           tecnologias: 'Javascript, SASS, HTML, Bootstrap-Vue',
-          icone: '',
+          icone: 'fab fa-angular',
         },
         {
           titulo: 'WordPress',
           experiencia: '2 anos',
           projetos: '4',
           tecnologias: 'Javascript, PHP, SCSS, HTML',
-          icone: '',
+          icone: 'fab fa-wordpress',
         },
       ],
     }
@@ -80,7 +80,9 @@ export default {
   padding: 0;
 }
 .card ul li{
-  color:#000;
+  color:#3B0A66;
   list-style-type: none;
+  font-weight: bold;
+  margin-top: 5px;
 }
 </style>
