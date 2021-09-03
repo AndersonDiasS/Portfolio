@@ -27,6 +27,9 @@ body
     animation: gradient 10s ease infinite
     color: $w
 
+.bgWhite
+    background:$w
+
 .TitleMenu
     margin-top: 50px
     margin-bottom: 50px
@@ -52,9 +55,14 @@ body
 .black
     color: $b
 
-.flexCenter
+.flexSpaceAround
     display: flex
     justify-content: space-around
+    text-align: center
+
+.flexCenter
+    display: flex
+    justify-content: center
     text-align: center
 
 .mb-10
@@ -67,7 +75,7 @@ body
     margin-bottom: 50px
 
 @media (max-width:700px)
-    .flexCenter
+    .flexSpaceAround
         flex-wrap: wrap
 
     .card

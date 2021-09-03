@@ -15,6 +15,10 @@ body {
   color: white;
 }
 
+.bgWhite {
+  background: white;
+}
+
 .TitleMenu {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -45,9 +49,15 @@ body {
   color: black;
 }
 
-.flexCenter {
+.flexSpaceAround {
   display: flex;
   justify-content: space-around;
+  text-align: center;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
@@ -64,7 +74,7 @@ body {
 }
 
 @media (max-width: 700px) {
-  .flexCenter {
+  .flexSpaceAround {
     flex-wrap: wrap;
   }
 

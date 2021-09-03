@@ -26,15 +26,15 @@
       </g>
     </svg>
     <div class="bgPrimary" style="padding-bottom: 20px;">
-      <h2 class="text-center mb-50 ">Skills</h2>
+      <h2 class="text-center p-t-b">Skills</h2>
 
-      <div class="flexCenter">
+      <div class="flexSpaceAround">
         <div class="card" v-for="card in cards" :key="card.titulo">
           <ul class="text-center">
             <li><i :class="card.icone" class="cardIcon"></i></li>
-            <li>{{card.experiencia}}</li>
-            <li>{{card.projetos}}</li>
-            <li>{{card.tecnologias}}</li>
+            <li>Experiencia: {{card.experiencia}}</li>
+            <li>Projetos: {{card.projetos}}</li>
+            <li>Tecnologias: {{card.tecnologias}}</li>
         
           </ul>
         </div>
@@ -76,6 +76,9 @@ export default {
 </script>
 
 <style scoped>
+.card ul li:first-child{
+  border-bottom:1px solid #ddd;
+}
 .card ul{
   padding: 0;
 }
@@ -84,5 +87,10 @@ export default {
   list-style-type: none;
   font-weight: bold;
   margin-top: 5px;
+}
+
+.p-t-b{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 </style>

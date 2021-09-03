@@ -4,6 +4,7 @@
     <waves />
     <myLinks />
     <myTalents />
+    <myFooter />
   </main>
 </template>
 
