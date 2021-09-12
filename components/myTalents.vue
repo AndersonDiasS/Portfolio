@@ -15,7 +15,6 @@
         />
       </defs>
       <g class="">
-     
         <use
           xlink:href="#gentle-wave"
           x="48"
@@ -25,17 +24,13 @@
         />
       </g>
     </svg>
-    <div class="bgPrimary" style="padding-bottom: 20px;">
-      <h2 class="text-center p-t-b">Skills</h2>
+    <div class="bgPrimary" style="padding-bottom: 20px">
+      <h2 class=" text-center p-t-b">Habilidades 🧙‍♂️</h2>
 
-      <div class="flexSpaceAround">
+      <div class="flexSpaceAround container">
         <div class="card" v-for="card in cards" :key="card.titulo">
           <ul class="text-center">
             <li><i :class="card.icone" class="cardIcon"></i></li>
-            <li>Experiencia: {{card.experiencia}}</li>
-            <li>Projetos: {{card.projetos}}</li>
-            <li>Tecnologias: {{card.tecnologias}}</li>
-        
           </ul>
         </div>
       </div>
@@ -49,25 +44,53 @@ export default {
     return {
       cards: [
         {
+          titulo: 'HTML',
+          experiencia: '2 anos',
+          projetos: '4',
+          tecnologias: 'Javascript, PHP, SCSS, HTML',
+          icone: 'fab fa-html5',
+        },
+        {
+          titulo: 'SASS',
+          experiencia: '2 anos',
+          projetos: '4',
+          tecnologias: 'Javascript, PHP, SCSS, HTML',
+          icone: 'fab fa-sass',
+        },
+        {
+          titulo: 'Javascript',
+          experiencia: '2 anos',
+          projetos: '4',
+          tecnologias: 'Javascript, PHP, SCSS, HTML',
+          icone: 'fab fa-js-square',
+        },
+           {
+          titulo: 'PHP',
+          experiencia: '3 anos',
+          projetos: '8',
+          tecnologias: 'TypeScript, SASS, HTML, Material Angular',
+          icone: 'fab fa-php',
+        },
+        {
           titulo: 'Angular',
           experiencia: '3 anos',
           projetos: '8',
           tecnologias: 'TypeScript, SASS, HTML, Material Angular',
-          icone: 'fab fa-vuejs',
+          icone: 'fab fa-angular',
         },
         {
           titulo: 'VueJs',
           experiencia: '1 ano',
           projetos: '1',
           tecnologias: 'Javascript, SASS, HTML, Bootstrap-Vue',
-          icone: 'fab fa-angular',
+          icone: 'fab fa-vuejs',
         },
         {
           titulo: 'WordPress',
           experiencia: '2 anos',
           projetos: '4',
           tecnologias: 'Javascript, PHP, SCSS, HTML',
-          icone: 'fab fa-wordpress',
+          icone: 'fab fa-wordpress-simple',
         },
       ],
     }
@@ -76,21 +99,32 @@ export default {
 </script>
 
 <style scoped>
-.card ul li:first-child{
-  border-bottom:1px solid #ddd;
+.bgPrimary h2{
+  margin-bottom: 50px;
 }
-.card ul{
+ 
+
+.card{
+  margin-bottom: 30px;
+  width:230px;
+}
+.cardIcon { 
+  font-size: 60px;
+}
+.card ul {
   padding: 0;
+  margin:0;
 }
-.card ul li{
-  color:#3B0A66;
+.card ul li {
+  color: #3b0a66;
   list-style-type: none;
   font-weight: bold;
   margin-top: 5px;
 }
 
-.p-t-b{
+.p-t-b {
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 </style>

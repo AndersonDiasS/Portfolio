@@ -2,7 +2,7 @@
   <!--Waves Container-->
   <section>
     <div class="TitleMenu text-center">
-      <h2> Laboratorio 🤖 <i class="fas fa-flask cardIcon" style="font-size: unset;"></i></h2>
+      <h2> Laboratorio 🤖</h2>
     </div>
     <div class="container flexSpaceAround">
       <div class="card" v-for="item in items" :key="item.titulo">
