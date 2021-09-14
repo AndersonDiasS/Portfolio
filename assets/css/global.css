@@ -56,10 +56,18 @@ body {
   flex-wrap: wrap;
 }
 
+.flexSpaceEvenly {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 .flexCenter {
   display: flex;
   justify-content: center;
   text-align: center;
+  align-content: center;
 }
 
 .mb-10 {

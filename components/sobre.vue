@@ -20,17 +20,8 @@
     </svg>
 
     <h2 class="TitleMenu text-center">Um pouco mais sobre mim 🐧</h2>
-    <div class="flexSpaceAround container">
-
-        <div id="companies" class="">
-
-            <div class="" style="width:250px; height:250px; border:1px solid">
-                <!-- <img></img>-->
-
-
-            </div>
-        </div>
-      <article style="width:800px">
+    <div class="flexSpaceEvenly container">
+      <article class="mb-50" style="width: 100%">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         tempor elementum est, in laoreet metus egestas suscipit. Curabitur
         porttitor pellentesque enim, vel lacinia mi varius luctus. Mauris lorem
@@ -45,6 +36,43 @@
         elementum molestie ante a finibus. Fusce neque erat, ornare quis felis
         vitae, interdum sodales nunc.
       </article>
+
+      <div
+        id=""
+        class="littleImage"
+        v-for="empresa in empresas"
+        :key="empresa.nome"
+      >
+        <img class="littleImage" :src="empresa.img" v-bind:alt="empresa.nome" />
+      </div>
     </div>
   </section>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      empresas: [
+        { nome: 'Employer RH', img: require('@/assets/IMG/Employer.jpg') },
+        {
+          nome: 'FASO Fabrica de software',
+          img: require('@/assets/IMG/FASO.jpg'),
+        },
+        { nome: 'Hero Spark', img: require('@/assets/IMG/Herospark.png') },
+      ],
+    }
+  },
+}
+</script>
+
+<style scoped>
+.littleImage {
+  width: 100px;
+  align-items: center;
+  display: flex;
+}
+
+.companies img {
+  width: 100%;
+}
+</style>
