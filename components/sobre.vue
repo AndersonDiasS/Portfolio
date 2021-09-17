@@ -21,7 +21,7 @@
 
     <h2 class="TitleMenu text-center">Um pouco mais sobre mim 🐧</h2>
     <div class="flexSpaceEvenly container">
-      <article class="mb-50" style="width: 100%">
+      <article class="mb-50">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         tempor elementum est, in laoreet metus egestas suscipit. Curabitur
         porttitor pellentesque enim, vel lacinia mi varius luctus. Mauris lorem
@@ -39,7 +39,7 @@
 
       <div
         id=""
-        class="littleImage"
+        class="littleImage mb-50"
         v-for="empresa in empresas"
         :key="empresa.nome"
       >
@@ -53,7 +53,7 @@ export default {
   data() {
     return {
       empresas: [
-        { nome: 'Employer RH', img: require('@/assets/IMG/Employer.jpg') },
+        { nome: 'Employer RH', img: require('@/assets/IMG/employer.png') },
         {
           nome: 'FASO Fabrica de software',
           img: require('@/assets/IMG/FASO.jpg'),
@@ -66,6 +66,12 @@ export default {
 </script>
 
 <style scoped>
+article {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+
 .littleImage {
   width: 100px;
   align-items: center;
