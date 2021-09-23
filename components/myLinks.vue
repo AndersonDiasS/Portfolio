@@ -5,10 +5,10 @@
       <h2> Laboratorio 🤖</h2>
     </div>
     <div class="container flexSpaceAround">
-      <div class="card" v-for="item in items" :key="item.titulo">
+      <a class="card" v-for="item in items" :key="item.titulo" :href="item.link" target="_blank">
         <!-- <p>{{ item.titulo }}</p> -->
         <i :class="item.icon" class="cardIcon" />
-      </div>
+      </a>
     </div>
   </section>
   <!--Waves end-->
@@ -19,8 +19,8 @@ export default {
   data() {
     return {
       items: [
-        { titulo: 'Github', descricao: '', icon: 'fab fa-github-alt' },
-        { titulo: 'Code Pen', descricao: '', icon: 'fab fa-codepen' },
+        { titulo: 'Github', descricao: '', icon: 'fab fa-github-alt', link: 'https://github.com/AndersonDiasS'},
+        { titulo: 'Code Pen', descricao: '', icon: 'fab fa-codepen',  link: 'https://codepen.io/andersondiass' },
         // { titulo: 'Exemplos', descricao: '', icon: '' },
       ],
     }

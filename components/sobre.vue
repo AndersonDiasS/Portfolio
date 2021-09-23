@@ -22,19 +22,16 @@
     <h2 class="TitleMenu text-center">Um pouco mais sobre mim 🐧</h2>
     <div class="flexSpaceEvenly container">
       <article class="mb-50">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        tempor elementum est, in laoreet metus egestas suscipit. Curabitur
-        porttitor pellentesque enim, vel lacinia mi varius luctus. Mauris lorem
-        arcu, ullamcorper quis mauris vel, tincidunt viverra arcu. Pellentesque
-        vel molestie eros. Donec ullamcorper odio eget neque eleifend facilisis.
-        Quisque eros elit, mattis in elit a, gravida auctor urna. Sed
-        sollicitudin lectus a sapien convallis, sit amet vestibulum ipsum
-        ullamcorper. Duis lobortis condimentum libero vitae pulvinar. Donec at
-        elementum leo. Quisque condimentum faucibus magna, eu tincidunt odio
-        tincidunt eu. Integer rhoncus, leo a viverra dapibus, augue felis
-        bibendum turpis, vitae aliquet purus purus malesuada ligula. Nunc
-        elementum molestie ante a finibus. Fusce neque erat, ornare quis felis
-        vitae, interdum sodales nunc.
+        Formado em Sistemas para Web na Faculdade Padre João Bagozzi, comecei a
+        minha caminhada no mercado trabalhando como Estagiário a Web Design, lá
+        eu auxiliava na construção de Layouts, Produção gráfica e fazia as
+        manutenções nos próprios sistemas internos da empresa. Após isso fui
+        convidado a trabalhar com a FASO - Fabrica de software, onde atuei como
+        Front end e Web Designer desenvolvendo Layouts para diversos aplicativos
+        e Web sites, além de trabalhar como social Media. Saindo de lá acabei
+        trabalhando como Desenvolvedor Front end na Hero Spark no setor de
+        Marketing, elaborando landing pages e desenvolvendo e customizando
+        paginas Wordpress em conjunto com a minha equipe.
       </article>
 
       <div
