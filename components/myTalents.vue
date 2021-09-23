@@ -110,6 +110,7 @@ export default {
 .card {
   margin-bottom: 30px;
   width: 230px;
+  transition: 1s;
 }
 .cardIcon {
   font-size: 60px;
@@ -134,6 +135,7 @@ export default {
 .gradient-border:hover {
   --border-width: 3px;
   transition: 1s;
+  -webkit-text-fill-color: #8517e6;
   content: '';
   background: linear-gradient(
     60deg,
