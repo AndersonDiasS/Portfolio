@@ -1,33 +1,22 @@
 # Portfolio
 
-## Build Setup
 
-```bash
-# install dependencies
-$ npm install
+Olá, bem vindo ao meu portfólio se esta aqui é por que teve alguma curiosidade sobre como eu criei algum componente, ou como foi feito algum efeito dentro do Projeto.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Introdução
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+Esse projeto foi desenvolvido usando Nuxt.js, Nuxt é uma Framework para aplicações Web baseada em Vue.js, além do Nuxt estamos usando o Git Pages para hospedar a pagina estatica , Vue-Bootstrap e SASS.
 
-# generate static project
-$ npm run generate
-```
+Meu interesse inicial com esse projeto é, claro além de mostrar projetos desenvolvidos por mim para interessados, também usar o projeto como se fosse uma especie de laboratorio para testar algumas abordagens ( o proprio Nuxt é um otimo exemplo).
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+### Componentes
+A pagina foi estruturada em varios mini componentes, esses mini componentes são:
+ - initialContainer: Container inicial 
+ - myLinks: Links para Git hub e Code pen
+ - myTalents: Skills e Ferramentas ja usadas
+ - sobre: um pouco da minha caminhada  no mercado até então.
+ - Waves: Efeito de Wave usado em praticamente todo o Layout ( REVER ESSE COMPONENTE PARA MELHOR APLICAÇÃO )
+ - footer: Rodapé.
 
 ### `components`
 
