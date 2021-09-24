@@ -23,7 +23,7 @@
     <div class="flexSpaceEvenly container">
       <article class="mb-50">
         Formado em Sistemas para Web na Faculdade Padre João Bagozzi, comecei a
-        minha caminhada no mercado trabalhando como Estagiário a Web Design, lá
+        minha caminhada no mercado trabalhando como Estagiário a Web Design na Employer, lá
         eu auxiliava na construção de Layouts, Produção gráfica e fazia as
         manutenções nos próprios sistemas internos da empresa. Após isso fui
         convidado a trabalhar com a FASO - Fabrica de software, onde atuei como
@@ -73,6 +73,8 @@ article {
   width: 100px;
   align-items: center;
   display: flex;
+  height: 100%;
+  align-items:center;
 }
 
 .companies img {

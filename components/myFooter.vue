@@ -28,6 +28,7 @@
           :key="footerContent.content"
           :href="footerContent.link"
           target="_blank"
+          rel="noopener"
         >
           {{ footerContent.content }}
         </a>
@@ -38,6 +39,7 @@
           v-for="footerLink in footerLinks"
           :key="footerLink.name"
           :href="footerLink.link"
+          rel="noopener"
           >{{ footerLink.name }}</a
         >
       </div>
@@ -53,7 +55,7 @@ export default {
       footerContents: [
         {
           content:
-            'Caso tenha interesse em saber mais sobre como foi desenvolvido esse projeto em mais detalhes pode clicar aqui. Obrigado por visitar o meu portfolio 👍',
+            'Caso tenha interesse em saber mais sobre como foi desenvolvido esse projeto em mais detalhes pode clicar aqui. Obrigado por visitar o meu Web Site 👍',
           link: 'https://github.com/AndersonDiasS/Portfolio',
         },
       ],

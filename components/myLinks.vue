@@ -5,7 +5,7 @@
       <h2> Laboratorio 🤖</h2>
     </div>
     <div class="container flexSpaceAround">
-      <a class="card" v-for="item in items" :key="item.titulo" :href="item.link" target="_blank">
+      <a class="card" rel="noopener" v-for="item in items" :key="item.titulo" :href="item.link" target="_blank">
         <!-- <p>{{ item.titulo }}</p> -->
         <i :class="item.icon" class="cardIcon" />
       </a>
